@@ -13,7 +13,7 @@
 .header {
     height: 10%;
     width: auto;
-    background-color: blueviolet;
+    background-color: #41b9e0;
     border-radius: 10px;
     margin-top: 5px;
     display: flex;
@@ -30,7 +30,7 @@
 }
 .headerLeft p {
     font-size: 30pt;
-    font-family: "Comic Sans MS", serif;
+    font-family: 'Ubuntu', sans-serif;
  }
 .headerRight {
     width: 50%;
@@ -43,12 +43,12 @@
 }
 .headerRight p {
     font-size: 15pt;
-    font-family: "Comic Sans MS", serif;
+    font-family: 'Ubuntu', sans-serif;
 }
 .nav {
     height: 5%;
     width: auto;
-    background-color: green;
+    background-color: #889aa1;
     margin: 5px 0 5px 0;
     border-radius: 10px;
     display: flex;
@@ -58,12 +58,12 @@
 }
 .nav p {
     font-size: 15pt;
-    font-family: "Comic Sans MS", serif;
+    font-family: 'Ubuntu', sans-serif;
 }
 .main {
     height: 75%;
     width: auto;
-    background-color: darkslategray;
+    background-color: #889aa1;
     border-radius: 10px;
     padding: 5px;
     display: flex;
@@ -72,7 +72,7 @@
 .mainHeader {
     height: 10%;
     width: 100%;
-    background-color: thistle;
+    background-color: #f6b9f5;
     display: flex;
     justify-content: left;
     align-items: center;
@@ -81,7 +81,7 @@
 }
 .mainHeader p {
     font-size: 15pt;
-    font-family: "Comic Sans MS", serif;
+    font-family: 'Ubuntu', sans-serif;
 
 }
 .mainBody {
@@ -95,30 +95,30 @@
     height: 100%;
     width: 70%;
     border-radius: 10px ;
-    background-color: beige;
+    background-color: #f6b9f5;
     margin-right: 5px;
 }
 .bodyLeft p {
-    font-family: "Comic Sans MS", serif;
+    font-family: 'Ubuntu', sans-serif;
     font-size: 15pt;
     padding-left: 5px;
 }
 .bodyLeftLine {
     width: 100%;
     height: 7%;
-    border-radius: 10px 10px 0 0;
-    background-color: blue;
+    border-radius: 10px 10px 3px 3px;
+    background-color: #3e3e7e;
 }
 .bodyRight {
     height: 100%;
     width: 30%;
-    background-color: khaki;
+    background-color: #f6b9f5;
     border-radius: 10px;
     padding: 5px;
 }
 .bodyRight ul {
     font-size: 15pt;
-    font-family: "Comic Sans MS", serif;
+    font-family: 'Ubuntu', sans-serif;
 }
 .mainColumns {
     height: 40%;
@@ -130,7 +130,7 @@
     width: 27%;
     height: 100%;
     border-radius: 10px;
-    background-color: aliceblue;
+    background-color: #f6b9f5;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -138,12 +138,12 @@
 }
 .column p {
     font-size: 15pt;
-    font-family: "Comic Sans MS", serif;
+    font-family: 'Ubuntu', sans-serif;
 }
 .footer {
     height: 10%;
     width: auto;
-    background-color: thistle;
+    background-color: #41b9e0;
     margin: 5px 0 5px 0;
     border-radius: 10px;
     display: flex;
@@ -153,5 +153,5 @@
 }
 .footer p {
     font-size: 15pt;
-    font-family: "Comic Sans MS", serif;
+    font-family: 'Ubuntu', sans-serif;
 }
