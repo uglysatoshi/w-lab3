@@ -28,10 +28,14 @@
     align-items: center;
     padding-left: 10px;
 }
-.headerLeft p {
+.bigText {
     font-size: 30pt;
     font-family: 'Ubuntu', sans-serif;
- }
+}
+.smallText {
+    font-size: 15pt;
+    font-family: 'Ubuntu', sans-serif;
+}
 .headerRight {
     width: 50%;
     height: 100%;
@@ -40,10 +44,6 @@
     align-items: center;
     justify-content: space-between;
     padding: 10px;
-}
-.headerRight p {
-    font-size: 15pt;
-    font-family: 'Ubuntu', sans-serif;
 }
 .nav {
     height: 5%;
@@ -55,10 +55,6 @@
     justify-content: left;
     align-items: center;
     padding: 10px;
-}
-.nav p {
-    font-size: 15pt;
-    font-family: 'Ubuntu', sans-serif;
 }
 .main {
     height: 75%;
@@ -79,11 +75,6 @@
     border-radius: 10px;
     padding: 5px;
 }
-.mainHeader p {
-    font-size: 15pt;
-    font-family: 'Ubuntu', sans-serif;
-
-}
 .mainBody {
     height: 50%;
     width: 100%;
@@ -98,11 +89,6 @@
     background-color: #f6b9f5;
     margin-right: 5px;
 }
-.bodyLeft p {
-    font-family: 'Ubuntu', sans-serif;
-    font-size: 15pt;
-    padding-left: 5px;
-}
 .bodyLeftLine {
     width: 100%;
     height: 7%;
@@ -115,10 +101,6 @@
     background-color: #f6b9f5;
     border-radius: 10px;
     padding: 5px;
-}
-.bodyRight ul {
-    font-size: 15pt;
-    font-family: 'Ubuntu', sans-serif;
 }
 .mainColumns {
     height: 40%;
@@ -136,10 +118,6 @@
     align-items: center;
     padding: 5px;
 }
-.column p {
-    font-size: 15pt;
-    font-family: 'Ubuntu', sans-serif;
-}
 .footer {
     height: 10%;
     width: auto;
@@ -150,8 +128,4 @@
     justify-content: left;
     align-items: center;
     padding: 10px;
-}
-.footer p {
-    font-size: 15pt;
-    font-family: 'Ubuntu', sans-serif;
 }
